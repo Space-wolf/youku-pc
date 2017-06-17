@@ -1,0 +1,42 @@
+/* 统一的宽高、margin、padding、浮动、清浮动 */
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+input{
+    margin:0;
+    padding:0;
+}
+.icon{
+    background-image: url("../img/xuebitu.png");
+    background-repeat: no-repeat;
+}
+.syn_pos1{
+    background-position: 0 0;
+}
+.syn_pos2{
+    background-position: -18px 0;
+}
+.syn_pos3{
+    background-position: -36px 0;
+}
+.check_bg{
+    color: #2fb3ff;
+    border-bottom:2px solid #2fb3ff;
+}
+.rig20{
+    margin-right:20px;
+}
+.bot20{
+    margin-bottom:20px;
+}

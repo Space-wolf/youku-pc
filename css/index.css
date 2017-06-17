@@ -1,0 +1,32 @@
+/* 同名html文件中独有的样式 */
+.index{}
+
+/*主体内容.content start*/
+.index .content{
+    height:11572px;
+    background-color: #f1f2f3;
+    border-bottom:1px solid #e3e7e8;
+}
+.content .rule_con{
+    width:1340px;
+    height:11572px;
+    margin:0 auto;
+}
+.rule_con li{
+    margin-top:20px;
+    background-color: #ffffff;
+}
+.rule_con .recommend{
+    width:1300px;
+    height:370px;
+    padding:20px;
+    margin-right: -20px;
+    overflow: hidden;
+}
+.recommend .rec_left, .rec_center, .rec_right{
+    width:420px;
+    height:370px;
+}
+/*主体内容.content end*/
+
+

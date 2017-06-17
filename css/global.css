@@ -1,0 +1,157 @@
+/* 每个页面都会有的内容所需要的样式 */
+/*头部.head start*/
+.header{
+    width:1441px;
+    height:40px;
+    padding:21px 0 20px 0;
+    margin:0 auto;
+    /*background-color: pink;*/
+}
+.header .logo{
+    width:132px;
+    height:26px;
+    margin:10px 99px 4px 25px;
+}
+.header .recommend{
+    width:316px;
+    height:40px;
+}
+.recommend a{
+    float: left;
+    width:62px;
+    height:36px;
+    line-height: 36px;
+    padding-top:2px;
+    color: #2fb3ff;
+    text-align: center;
+    margin-right: -1px;
+    border:1px solid #2fb3ff;
+}
+.recommend>a:hover{
+    background-color: #2fb3ff;
+    color: #ffffff;
+}
+.recommend a:hover{
+    background-color: #2fb3ff;
+    color: #ffffff;
+}
+.header .recommend_bg{
+    background-color: #2fb3ff;
+    color: #ffffff;
+}
+.header .manage{
+    height:40px;
+    margin-left:29px;
+}
+.manage .manage_name{
+    height:14px;
+    margin:13px 0;
+}
+.manage_name .login, .register{
+    display: block;
+    line-height: 14px;
+    padding:0 7px;
+}
+.manage .manage_other{
+    height:16px;
+    margin:11px 0 0 12px;
+}
+.manage_other .syn{
+    margin-right: 19px;
+}
+.syn .syn_bg{
+    width:16px;
+    height:0;
+    padding-top:16px;
+    margin-right:8px;
+    overflow: hidden;
+}
+.syn .syn_ico{
+    width: 0;
+    height: 0;
+    margin-top:6px;
+    overflow: hidden;
+    border: 9px solid #ffffff;
+    border-top: 9px solid #878787;
+}
+.header .search{
+    height:40px;
+}
+.search .inp{
+    width:370px;
+    height:40px;
+    line-height: 12px;
+    padding:13px 0;
+    border:1px solid #2fb3ff;
+    border-right:none;
+}
+.search .sub{
+    width:80px;
+    height:40px;
+    color:#ffffff;
+    border:1px solid #30a4ff;
+    background-color: #30a4ff;
+}
+/*头部 end*/
+
+/*导航.nav start*/
+.nav{
+    height:52px;
+    border-top:1px solid #e3e7e8;
+    border-bottom:1px solid #e3e7e8;
+}
+.nav .nav_box{
+    width:1340px;
+    height:52px;
+    margin:0 auto;
+    /*background-color: #0a8cd2;*/
+}
+.nav_box .nav_left{
+    height:48px;
+    padding-top:3px;
+    margin-left:9px;
+}
+.nav_left a{
+    float: left;
+    height:48px;
+    padding: 0 7px;
+    line-height: 48px;
+    text-align: center;
+    margin-left:6px;
+}
+.nav_left .more .more_ico{
+    width:0;
+    height:0;
+    margin-top: 21px;
+    overflow: hidden;
+    border: 9px solid #ffffff;
+    border-top: 9px solid #878787;
+}
+.nav_left a:hover{
+    color: #2fb3ff;
+    border-bottom:2px solid #2fb3ff;
+}
+.nav_box .nav_right{
+    height:48px;
+    padding-top:3px;
+    margin-right:26px;
+}
+.nav_right a{
+    float: left;
+    height:48px;
+    line-height: 48px;
+    text-align: center;
+}
+/*导航.nav end*/
+
+/*底部 start*/
+.footer{
+    height:350px;
+    background-color: #f1f2f3;
+}
+.footer .footer_box{
+    width:1340px;
+    height:350px;
+    margin:0 auto;
+}
+/*底部 end*/

@@ -1,0 +1,10 @@
+/* 处理兼容性样式 */
+.header .logo{
+    *display: inline;
+}
+.header .recommend{
+    *width:318px;
+}
+.search .inp{
+    *height:12px;
+}
