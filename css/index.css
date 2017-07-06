@@ -3,29 +3,482 @@
 
 /*主体内容.content start*/
 .index .content{
-    height:11572px;
+    /*height:11572px;*/
     background-color: #f1f2f3;
     border-bottom:1px solid #e3e7e8;
 }
 .content .rule_con{
     width:1340px;
-    height:11572px;
+    /*height:11572px;*/
     margin:0 auto;
 }
-.rule_con li{
+.rule_con>div{
     margin-top:20px;
     background-color: #ffffff;
+    vertical-align: top;
 }
-.rule_con .recommend{
+.rule_con .item{
     width:1300px;
     height:370px;
     padding:20px;
-    margin-right: -20px;
     overflow: hidden;
 }
-.recommend .rec_left, .rec_center, .rec_right{
+.item .rec_left, .rec_right{
     width:420px;
     height:370px;
+}
+.rec_right .ad .ad_opa_left{
+    width: 34px;
+    height:22px;
+    left:10px;
+    bottom:10px;
+}
+.rec_right .ad .ad_opa_right{
+    width: 34px;
+    height:22px;
+    right:10px;
+    bottom:10px;
+}
+.item .rec_center{
+    width:200px;
+    height:370px;
+}
+.rec_left .top_tv{
+    width:420px;
+    height:240px;
+}
+.top_tv img{
+    width:420px;
+    height:240px;
+}
+.top_tv .location{
+    width:396px;
+    height:31px;
+    left:12px;
+    bottom:0;
+    font-size: 15px;
+    line-height: 31px;
+    color: #ffffff;
+    overflow: hidden;
+}
+.rec_left .bot_tv{
+    width:420px;
+    height:110px;
+}
+
+
+.rule_con .item2{
+    width:1300px;
+    height:540px;
+    padding:20px;
+    overflow: hidden;
+}
+.item .item_top{
+    width:1300px;
+    height:384px;
+}
+.item_top .know{
+    width:1080px;
+    height:440px;
+}
+.know .know_text{
+    width:1080px;
+    height:35px;
+    border-bottom:1px solid #eeeeee;
+}
+.know_text .know_tie{
+    width:138px;
+    height:26px;
+}
+.know_tie .know_href{
+    width:138px;
+    height:26px;
+}
+.know_href .bg_img{
+    width:26px;
+    height:0;
+    padding-top:26px;
+    overflow: hidden;
+    margin-left:2px;
+    background-position: 0 -17px;
+}
+.know_href .tit_name{
+    width:97px;
+    height:26px;
+    line-height:26px;
+    font-size:18px;
+    font-weight: normal;
+    margin-left:13px;
+}
+.know_text .login_info{
+    height:14px;
+    line-height:14px;
+    color: #909090;
+    margin-top:8px;
+}
+.login_info a{
+    color: #30b3ff;
+}
+.know_text .change_href{
+    width:54px;
+    height:22px;
+    margin-top:10px;
+}
+.change_href .change_bg{
+    width:12px;
+    height:0;
+    padding-top:12px;
+    overflow: hidden;
+    background-position: -54px 0;
+}
+.change_href .change_text{
+    width:36px;
+    height:14px;
+    line-height:14px;
+    font-size:12px;
+    margin-left:6px;
+}
+.know .know_con{
+    width:1080px;
+    height:384px;
+    margin-top: 20px;
+}
+.know_con .know_item{
+    width:1080px;
+    height:192px;
+}
+.know_item .know_video{
+    width:200px;
+    height:192px;
+}
+.video_pic .video_opa{
+    width:41px;
+    height:18px;
+    right:10px;
+    bottom:10px;
+}
+.video_opa .opa_bg{
+    width:41px;
+    height:18px;
+    background-color: #000000;
+    left: 0;
+    top:0;
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+}
+.video_opa time{
+    width:41px;
+    height:18px;
+    font-size:12px;
+    line-height:18px;
+    color: #ffffff;
+    text-align: center;
+}
+.know_video .know_info{
+    width:200px;
+    height:82px;
+}
+.know_info .text{
+    width:200px;
+    height:38px;
+    line-height:19px;
+    padding-top:8px;
+    overflow: hidden;
+}
+.know_info .other_info{
+    width:200px;
+    height:18px;
+}
+.other_info .play{
+    font-size: 12px;
+    line-height: 18px;
+    color: #999999;
+    margin-right:10px;
+}
+.other_info .comment{
+    font-size: 12px;
+    line-height: 18px;
+    color: #999999;
+}
+.item2 .product{
+    width:200px;
+    height:440px;
+}
+.product .pro_header{
+    width:200px;
+    height:35px;
+    border-bottom:1px solid #eeeeee;
+}
+.pro_header .pro_header_href{
+    display: block;
+    width:108px;
+    height:26px;
+}
+.pro_header_href strong{
+    width:100px;
+    height:26px;
+    line-height:26px;
+    font-size:18px;
+    font-weight: normal;
+}
+.pro_header_href span{
+    width:7px;
+    height:0;
+    padding-top:12px;
+    overflow: hidden;
+    background-position:-69px 0 ;
+    margin-top:7px;
+}
+.product .product_con{
+    width:200px;
+    height:393px;
+    margin-top:11px;
+}
+.product_con .eve{
+    width:200px;
+    height:40px;
+}
+.eve .ico_href{
+    width:82px;
+    height:40px;
+}
+.ico_href .eve_ico{
+    width:20px;
+    height:0;
+    padding-top:20px;
+    overflow: hidden;
+    margin:10px 10px 0 0;
+}
+.ico_href .eve_tit{
+    width:42px;
+    height:14px;
+    line-height:14px;
+    font-size:12px;
+    word-spacing: 12px;
+    padding:13px 10px 12px 0;
+    border-bottom:1px solid #e3e7e8;
+    text-align: center;
+}
+.eve .eve_name{
+    width:118px;
+    height:39px;
+    border-bottom:1px solid #e3e7e8;
+}
+.eve_name .eve_other{
+    width:48px;
+    height:14px;
+    line-height: 14px;
+    font-size:12px;
+    padding:0 5px;
+    margin:13px 0 12px 0;
+    text-align: center;
+}
+.border{
+    border-left:1px solid #e3e7e8;
+}
+.laifeng{
+    background-position: -29px -17px;
+}
+.huati{
+    background-position: -29px -39px;
+}
+.zhibo{
+    background-position: -29px -61px;
+}
+.zipindao{
+    background-position: -29px -83px;
+}
+.chongchou{
+    background-position: -29px -105px;
+}
+.youxi{
+    background-position: -29px -127px;
+}
+.vr{
+    background-position: -29px -149px;
+}
+.qita{
+    background-position: -29px -171px;
+}
+
+.rule_con .item3{
+    width:1300px;
+    height:538px;
+    padding:20px;
+}
+.item3 .item3_con{
+    width:1300px;
+    height:482px;
+    margin-top:20px;
+}
+.item3_con .item3_box1{
+    width:1300px;
+    height:344px;
+}
+.item3_box1 .other_box{
+    width:200px;
+    height:344px;
+}
+.item3_con .item3_box2{
+    width:1300px;
+    height:158px;
+}
+
+
+.rule_con .item4{
+    width:1300px;
+    height:330px;
+    padding:20px;
+}
+.item4 .item4_con{
+    width:1300px;
+    height:170px;
+    margin:20px 0 4px 0;
+}
+
+.rule_con .item5{
+    width:1300px;
+    height:396px;
+    padding:20px 20px 4px 20px;
+}
+.item5 .item5_con{
+    width:1300px;
+    height:340px;
+    margin-top:20px;
+}
+.item5 .other_box{
+    width:200px;
+    height:340px;
+}
+
+
+.rule_con .item6{
+    width:1300px;
+    height:702px;
+    padding:20px 20px 0 20px;
+}
+.item6 .item6_con{
+    width:1300px;
+    height:646px;
+    margin-top:20px;
+}
+.item6_con .i6_con_top{
+    width:1300px;
+    height:323px;
+    margin-right:-100px;
+    overflow: hidden;
+}
+
+
+.rule_con .item7, .item8{
+    width:1300px;
+    height:226px;
+    padding:20px 20px 4px 20px;
+}
+.item7 .item7_con{
+    width:1300px;
+    height:170px;
+    margin-top:20px;
+}
+.item8 .item8_con{
+    width:1300px;
+    height:170px;
+    margin-top:20px;
+}
+
+.rule_con .item9{
+    width:1300px;
+    height:194px;
+    padding:20px;
+}
+.item9 .item9_con{
+    width:1300px;
+    height:138px;
+    margin-top:20px;
+}
+
+.rule_con .item10{
+    width:1300px;
+    height:544px;
+    padding:20px;
+}
+.item10 .item10_con{
+    width:1300px;
+    height:388px;
+    margin:14px 0 6px 0;
+}
+.item10_con .item10_top{
+    width:1300px;
+    height:194px;
+}
+
+
+.rule_con .item11{
+    width:1300px;
+    height:244px;
+    padding:20px 20px 6px 20px;
+}
+.item11 .item11_con{
+    width:1300px;
+    height:194px;
+    margin-top:14px;
+}
+
+
+.rule_con .item12{
+    width:1300px;
+    height:330px;
+    padding:20px;
+}
+.item12 .item12_con{
+    width:1300px;
+    height:174px;
+    margin-top:20px;
+}
+
+.rule_con .item13{
+    width: 1300px;
+    height: 404px;
+    padding:20px;
+}
+
+
+.rule_con .discover {
+    width: 1340px;
+    height: 95px;
+    padding-top: 105px;
+    background-color: #f1f2f3;
+    margin:0;
+}
+.discover .dis_box{
+    width:418px;
+    height:95px;
+    margin-left:376px;
+}
+.dis_box .dis_img{
+    width:418px;
+    height:95px;
+}
+.dis_box .dis_textbox{
+    width:194px;
+    height:24px;
+    top:20px;
+    right:-175px;
+}
+.dis_textbox .dis_text{
+    width:194px;
+    height:24px;
+    line-height:24px;
+    font-size:12px;
+    color: #2fb3ff;
+    left:0;
+    top:0;
+}
+.dis_text .find{
+    padding:0 10px;
+    background-color: #30b2ff;
+    color: #ffffff;
+    margin:0 6px;
 }
 /*主体内容.content end*/
 

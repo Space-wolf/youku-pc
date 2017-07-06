@@ -34,9 +34,735 @@ input{
     color: #2fb3ff;
     border-bottom:2px solid #2fb3ff;
 }
+.rig1{
+    margin-right:1px;
+}
+.top20{
+    margin-top:20px;
+}
 .rig20{
     margin-right:20px;
 }
 .bot20{
     margin-bottom:20px;
+}
+.rel{
+    position: relative;
+    *zoom:1;
+}
+.abs{
+    position: absolute;
+}
+.tv_text{
+    width:172px;
+    height:32px;
+    line-height: 32px;
+    left:12px;
+    bottom:0;
+    color: #ffffff;
+    overflow: hidden;
+}
+.size1{
+    width:420px;
+    height:240px;
+}
+.size2{
+    width: 200px;
+    height:110px;
+}
+.size3{
+    width:200px;
+    height:240px;
+}
+.size6{
+    width:1300px;
+    height:100px;
+}
+.hei110{
+    width:420px;
+    height:110px;
+}
+.hei240{
+    width:420px;
+    height:240px;
+}
+.hei_s240{
+    width:200px;
+    height:240px;
+}
+.bot10{
+    margin-bottom:10px;
+}
+.block{
+    display: block;
+}
+.origin{
+    left:0;
+    top:0;
+}
+.ad_opa{
+    width:34px;
+    height:22px;
+    background-color: #000000;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+.size4{
+    width:120px;
+    padding-left:4px;
+    height:20px;
+    line-height: 20px;
+    color: #ffffff;
+}
+.size5{
+    width:72px;
+    padding-left:4px;
+    height:20px;
+    line-height: 20px;
+    color: #ffffff;
+}
+.ad_size{
+    width:200px;
+    height:20px;
+    left:0;
+    bottom:0;
+}
+.ad_opa2{
+    width:200px;
+    height:20px;
+    background-color: #888888;
+}
+.ad_opatext{
+    width:34px;
+    height:22px;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px 5px 0 0 ;
+}
+.ad_origin{
+    width:34px;
+    height:22px;
+    left:10px;
+    bottom:25px;
+}
+.ad_opacity{
+    width:34px;
+    height:22px;
+    left: 10px;
+    bottom: 10px;
+}
+.ad_bg{
+    width: 34px;
+    height: 22px;
+    background-color: #000000;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    left:0;
+    bottom:0;
+}
+.ad_text{
+    width: 34px;
+    height: 22px;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+/*子模块头部通用样式 start*/
+.head{
+    width:1300px;
+    height:35px;
+}
+.tit_size{
+    *width:109px;
+    height:26px;
+}
+.tit_size2{
+    *width:128px;
+    height:26px;
+}
+.tit_size3{
+    *width:180px;
+    height:26px;
+}
+.bot_border{
+    border-bottom:1px solid #eeeeee;
+}
+.tit_img{
+    width:26px;
+    height:0;
+    padding-top:26px;
+    margin-left:2px;
+    overflow: hidden;
+}
+.tit_names{
+    height:26px;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: normal;
+    margin:0 22px 0 13px;
+}
+.tit_ico{
+    width:7px;
+    height:0;
+    padding-top:12px;
+    overflow: hidden;
+    background-position: -68px 0;
+    margin-top:8px;
+}
+.tit_nav{
+    height:35px;
+    margin-left:40px;
+}
+.tv_href{
+    height:35px;
+    line-height:35px;
+    font-size: 14px;
+    margin:0 10px;
+}
+.tv_href:hover{
+    color: #2fb3ff;
+    border-bottom: 1px solid #2fb3ff;
+}
+.firse_tv_href{
+    color: #2fb3ff;
+    border-bottom: 1px solid #2fb3ff;
+}
+.ranking_size{
+    width:74px;
+    height:16px;
+}
+.rank_ico{
+    width:11px;
+    height:0;
+    padding-top:16px;
+    overflow: hidden;
+    background-position: -84px 0;
+}
+.rank_text{
+    width:52px;
+    height:16px;
+    line-height: 16px;
+    margin-left:11px;
+}
+
+.juji{
+    background-position:0 -45px;
+}
+.fangjuchang{
+    background-position:0 -73px;
+}
+.zongyi{
+    background-position:0 -101px;
+}
+.movies{
+    background-position:0 -129px;
+}
+.dongman{
+    background-position:0 -157px;
+}
+.shaoer{
+    background-position:0 -185px;
+}
+.zhuanti{
+    background-position:0 -213px;
+}
+.zipin{
+    background-position:0 -241px;
+}
+.yule{
+    background-position:0 -269px;
+}
+.laifeng2{
+    background-position:0 -298px;
+}
+.zixun{
+    background-position:0 -326px;
+}
+.gaoxiao{
+    background-position:0 -354px;
+}
+.yinyue{
+    background-position:-28px -352px;
+}
+.jishi{
+    background-position:-29px -326px;
+}
+.caijingkeji{
+    background-position:-29px -297px;
+}
+.shenghuo{
+    background-position: -30px -269px;
+}
+.lvyou{
+    background-position: -30px -241px;
+}
+.jiaoyu{
+    background-position: -29px -213px;
+}
+.car{
+    background-position: -57px -213px;
+}
+.pinpai{
+    background-position: -57px -241px;
+}
+.game{
+    background-position: -57px -270px;
+}
+.tiyu{
+    background-position: -57px -297px;
+}
+.movies_size{
+    height:24px;
+    padding-bottom:11px;
+}
+.movies_font{
+    line-height:24px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.movie_item{
+    width:1300px;
+    height:368px;
+    margin-top:20px;
+}
+.movie_imgsize{
+    width:200px;
+    height:300px;
+}
+.movie_info{
+    width:200px;
+    height:384px;
+}
+.movie_name{
+    width:200px;
+    height:20px;
+    padding-top:7px;
+}
+.movie_font{
+    line-height:20px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.movie_other{
+    width:200px;
+    height:19px;
+    line-height:19px;
+    font-size: 12px;
+    color: #999999;
+}
+/*子模块头部通用样式 end*/
+
+/*.item3下首个大容器通用样式 start*/
+.tv_big_box{
+    width:420px;
+    height:340px;
+}
+.opa_img_size{
+    width:420px;
+    height:280px;
+}
+.opa_size{
+    width:60px;
+    height:18px;
+    right:10px;
+    bottom:10px;
+}
+.opa_bgcolor{
+    width:60px;
+    height:18px;
+    left:0;
+    top:0;
+    background-color:#000000;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+.opa_text{
+    width:60px;
+    height:18px;
+    line-height:18px;
+    font-size: 12px;
+    color:#ffffff;
+    text-align: center;
+}
+.tv_info_box{
+    width:420px;
+    margin-top:7px;
+}
+.tv_name{
+    width: 420px;
+    height:24px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.tv_describe{
+    width:420px;
+    height:24px;
+    line-height:24px;
+    font-size:14px;
+    color: #999999;
+}
+.play, .comment{
+    margin-right: 11px;
+}
+/*.item3下首个大容器通用样式 end*/
+
+/*.item3下首个小容器通用样式 start*/
+.tv_small_box{
+    width:200px;
+    /*height:170px;*/
+}
+.opa_img_size2{
+    width:200px;
+    height:110px;
+}
+.opa_size2{
+    width:48px;
+    height:18px;
+    right:10px;
+    bottom:10px;
+}
+.opa_bgcolor2{
+    width:48px;
+    height:18px;
+    left:0;
+    top:0;
+    background-color:#000000;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+.opa_text2{
+    width:48px;
+    height:18px;
+    line-height:18px;
+    font-size: 12px;
+    color:#ffffff;
+    text-align: center;
+}
+.tv_info_box2{
+    width:200px;
+    margin-top:7px;
+    margin-bottom:13px;
+}
+.tv_name2{
+    width: 200px;
+    height:20px;
+    line-height: 20px;
+    font-size: 12px;
+    overflow: hidden;
+}
+.tv_describe2{
+    width:200px;
+    height:20px;
+    line-height:20px;
+    font-size:12px;
+    color: #999999;
+    overflow: hidden;
+}
+.tv_info_box3{
+    width:200px;
+    height:24px;
+    line-height: 24px;
+    font-size: 14px;
+    margin-top:4px;
+    overflow: hidden;
+}
+/*.item3下首个小容器通用样式 end*/
+
+/*.item6下每个电影的通用样式 start*/
+.movie_size{
+    width:170px;
+    height:323px;
+}
+.movie_img_size{
+    width:170px;
+    height:255px;
+}
+.opa_size3{
+    width:34px;
+    height:18px;
+    right:10px;
+    bottom:10px;
+}
+.opa_bgcolor3{
+    width:34px;
+    height:18px;
+    left:0;
+    top:0;
+    background-color:#000000;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+.opa_text3{
+    width:34px;
+    height:18px;
+    line-height:18px;
+    font-size: 12px;
+    color:#ffffff;
+    text-align: center;
+}
+.movie_info_text{
+    width:170px;
+    height:40px;
+    padding:10px 0 21px 0;
+}
+.font{
+    width:170px;
+    height:20px;
+    line-height:20px;
+    font-size: 12px;
+}
+.movie_tie{
+    color: #999999;
+}
+/*.item6下每个电影的通用样式 end*/
+
+
+/*.media自媒体模块下子模块通用样式 start*/
+.media{
+    width:200px;
+    height:194px;
+}
+.media_img{
+    width:200px;
+    height:110px;
+    padding-top:26px;
+}
+.media_tie_bg{
+    width:38px;
+    height: 38px;
+    left:-4px;
+    top:2px;
+}
+.media_tie_bg2{
+    width:38px;
+    height:38px;
+    left:0;
+    top:0;
+    background-color: #ffffff;
+    border-radius: 19px;
+}
+.media_tie_bg3{
+    width:30px;
+    height:30px;
+    left:4px;
+    top:4px;
+    border-radius: 15px;
+    z-index: 1;
+}
+.media_pep{
+    width:160px;
+    height:24px;
+    font-size:12px;
+    line-height:26px;
+    left: 40px;
+    top:0;
+}
+.media_info{
+    width:170px;
+    height:39px;
+    padding:7px 0 11px 0;
+}
+.media_text, .media_tit{
+    width:170px;
+    height:20px;
+}
+.media_text a{
+    width:170px;
+    height:20px;
+    line-height:20px;
+    font-weight: normal;
+    font-size: 12px;
+}
+.media_tit{
+    width:170px;
+    height:20px;
+    line-height:20px;
+    font-size: 12px;
+    color: #999999;
+}
+.num{
+    padding-right:4px;
+}
+/*.media自媒体模块下子模块通用样式 end*/
+
+
+
+/*movie.html页面子模块头部通用样式start*/
+.item_head{
+    /*width:1190px;*/
+    height:36px;
+    padding-bottom:16px;
+}
+.item_head h2{
+    height:36px;
+    font-size:24px;
+    line-height:36px;
+    font-weight: normal;
+    color: #909090;
+    margin-right:20px;
+}
+.item_head a{
+    height:36px;
+    font-size:12px;
+    line-height:36px;
+}
+/*movie.html页面子模块头部通用样式end*/
+
+/*movie.html页面子模块图片上电影信息定位样式start*/
+.mov_info_pos{
+    width: 200px;
+    height:38px;
+    position: absolute;
+    left: 0;
+    bottom:0;
+}
+.mov_info_pos strong{
+    width:160px;
+    height:19px;
+    padding: 0 34px 0 5px;
+    font-size:12px;
+    line-height:19px;
+    font-weight: normal;
+    color: #ffffff;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mov_info_pos span{
+    width:160px;
+    height:19px;
+    padding: 0 34px 0 5px;
+    font-size:12px;
+    line-height:19px;
+    color: #dddddd;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*movie.html页面子模块图片上电影信息定位样式end*/
+
+/*图片底部多个圆点切换样式start*/
+.cut{
+    width: 1190px;
+    height: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.cut a{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: #c3c3c3;
+    vertical-align: top;
+}
+/*图片底部多个圆点切换样式end*/
+
+/*图片上文字正片,会员免费定位start*/
+.feature_film{
+    display: block;
+    font-size: 12px;
+    color: #ffffff;
+    line-height:22px;
+    padding:0 5px;
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+.num1{
+    font-size:14px;
+    line-height:22px;
+    color: #ff2020;
+    font-weight: bold;
+}
+.num2{
+    font-size:10px;
+    line-height:22px;
+    color: #ff2020;
+    font-weight: bold;
+}
+.member{
+    display: block;
+    font-size: 12px;
+    color: #ffffff;
+    line-height:22px;
+    padding:0 5px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    right:0;
+    top:0;
+}
+/*图片上文字正片定位end*/
+/*右侧小块电影介绍通用样式start*/
+.rig_mov{
+    width:310px;
+    height:80px;
+}
+.rig_mov .rig_href{
+    width:145px;
+    height:80px;
+    margin-right:10px;
+}
+.rig_href img{
+    width:145px;
+    height:80px;
+}
+.rig_mov .rig_info{
+    width:155px;
+    height:80px;
+    overflow: hidden;
+}
+.rig_info strong{
+    width:155px;
+    line-height:22px;
+    font-size:12px;
+}
+.rig_info span{
+    width:155px;
+    font-size:12px;
+    line-height:20px;
+    color: #909090;
+}
+.mt5{
+    margin-top:5px;
+}
+.mt16{
+    margin-top:16px;
+}
+/*右侧小块电影介绍通用样式end*/
+
+/*recreation页面小模块头部通用样式start*/
+.con_head{
+    height:28px;
+    padding:20px 0;
+    font-size:24px;
+    line-height: 28px;
+}
+.wid860{
+    width:860px;
+}
+.wid310{
+    width:310px;
+}
+.con_head .con_tit{
+    height:28px;
+    font-size:24px;
+    line-height:28px;
+    font-weight:normal;
+    color: #909090;
+}
+.con_head .more{
+    height:28px;
+    font-size:12px;
+    line-height:28px;
+}
+
+/*recreation页面小模块头部通用样式end*/
+.pad_bot10{
+    padding-bottom:10px;
 }
